@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Santo_Domingo',
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        facturacion\Providers\AppServiceProvider::class,
+        facturacion\Providers\AuthServiceProvider::class,
+        // facturacion\Providers\BroadcastServiceProvider::class,
+        facturacion\Providers\EventServiceProvider::class,
+        facturacion\Providers\RouteServiceProvider::class,
 
     ],
 
